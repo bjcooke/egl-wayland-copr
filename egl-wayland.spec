@@ -50,6 +50,8 @@ find %{buildroot} -name '*.la' -exec rm -f {} ';'
 %license COPYING
 %{_libdir}/*.so.*
 %{_datadir}/pkgconfig/*.pc
+%{_datadir}/wayland-eglstream/wayland-eglstream-controller.xml
+%{_datadir}/wayland-eglstream/wayland-eglstream.xml
 %{_datadir}/egl/egl_external_platform.d/10_nvidia_wayland.json
 
 
