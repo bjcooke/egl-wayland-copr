@@ -49,7 +49,7 @@ find %{buildroot} -name '*.la' -exec rm -f {} ';'
 %doc README.md
 %license COPYING
 %{_libdir}/*.so.*
-%{_datadir/pkgconfig/*.pc
+%{_datadir}/pkgconfig/*.pc
 %{_datadir}/egl/egl_external_platform.d/10_nvidia_wayland.json
 
 
